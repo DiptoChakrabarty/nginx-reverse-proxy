@@ -1,2 +1,5 @@
 # nginx-reverse-proxy
-How to setup nginx reverse proxy and route requests
+
+This is a repository which shows how to setup nginx reverse proxy to route requests to different servers.
+
+We will use docker containers to demonstrate this.
