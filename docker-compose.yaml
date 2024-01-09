@@ -6,3 +6,11 @@ services :
     - "8080:80"
     #volumes:
     #  - ./config/nginx.conf:/etc/nginx/nginx.conf
+  app1:
+    build: ./app1/
+    ports:
+    - "8085:80"
+  app2:
+    build: ./app2
+    ports:
+    - "8010:80"
