@@ -12,12 +12,8 @@ services :
     ports:
     - "8085:80"
     restart: always
-    depends_on:
-      - web
   app2:
     build: ./app2
     ports:
     - "8010:80"
     restart: always
-    depends_on:
-      - web
